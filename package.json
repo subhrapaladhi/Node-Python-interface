@@ -1,0 +1,23 @@
+{
+  "name": "node_js_python_interface",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./Build/app.js",
+    "start": "node ./Build/app.js",
+    "tsc": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/node": "^14.0.14",
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "express": "^4.17.1"
+  }
+}
